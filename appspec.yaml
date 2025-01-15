@@ -1,0 +1,19 @@
+version: 0.2
+os: linux
+
+files:
+  - source: blog-app.jar
+    destination: /home/ec2-user
+
+hooks:
+
+
+  ApplicationStop:
+    - location: stop_server.sh
+      timeout: 300
+      runas: root
+
+  ApplicationStart:
+    - location: start_server.sh
+      timeout: 300
+      runas: root

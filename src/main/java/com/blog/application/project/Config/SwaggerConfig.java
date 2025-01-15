@@ -49,7 +49,7 @@ public class SwaggerConfig {
                 "Swagger Configuration of Blogging Application",
                 "1.0.0",
                 "Terms of service",
-                new Contact("Aditya Mishra", " ", "aditya.mishra@happy60plus.com"),
+                new Contact("Aditya Mishra", " ", "mishraaditya29@gmail.com"),
                 "Apache License Version 2.0",
                 "https://www.apache.org/licenses/LICENSE-2.0", new ArrayList<>());
     }
