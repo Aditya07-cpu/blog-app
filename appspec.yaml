@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: blog-app.jar
-    destination: /home/ec2-user
+    destination: /home
 
 hooks:
   ApplicationStop:
