@@ -13,7 +13,9 @@ phases:
       - echo Build, Testing and packaging completed.
 artifacts:
   files:
-    - "**/*"
+    - target/*.jar
+    - scripts/*.sh
+    - appspec.yaml
   discard-paths: yes
 cache:
   paths:
