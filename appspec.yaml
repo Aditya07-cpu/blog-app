@@ -2,8 +2,8 @@ version: 0.2
 os: linux
 
 files:
-  - source: blog-app.jar
-    destination: /home
+  - source: /
+    destination: /var/www/html
 
 hooks:
   ApplicationStop:
